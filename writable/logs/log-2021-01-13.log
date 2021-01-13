@@ -1,0 +1,365 @@
+CRITICAL - 2021-01-13 12:10:03 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1548): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1591): CodeIgniter\Database\BaseConnection->listTables()
+#3 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(945): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#4 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(193): CodeIgniter\Database\MigrationRunner->ensureTable()
+#5 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(128): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#6 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Migrate->run(Array)
+#7 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('migrate', Array)
+#8 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate', 't_usuarios')
+#10 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\code4\crudLeo\spark(57): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2021-01-13 12:47:18 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:47:29 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:47:30 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:47:34 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:49:56 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:49:57 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:49:59 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:00 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:00 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:00 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:00 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:24 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:25 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:26 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:26 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:26 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:27 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:27 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:45 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:48 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:49 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:49 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:49 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:50 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:50 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:50 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:50 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:50 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:50 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:51 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:51 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:51 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:51 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:51 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:51 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:52 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:50:57 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:56:46 --> Cannot redeclare App\Controllers\Crud::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 12:58:02 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:02:53 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:04:30 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:04:31 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:06:53 --> Class 'Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:06:54 --> Class 'Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:06:57 --> Class 'Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:07:48 --> syntax error, unexpected '.', expecting ',' or ';'
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-13 13:08:45 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:12:49 --> Class 'App\Models\modeloCrud' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:14:41 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:14:55 --> Class 'App\Controllers\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:16:47 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:17:32 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:17:33 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:17:34 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:18:59 --> Class 'Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:19:26 --> Class 'Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:19:39 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:21:25 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:25:47 --> Class 'App\Models\Crudmodel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:25:48 --> Class 'App\Models\Crudmodel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:26:09 --> Class 'App\Models\Crudmodel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:29:52 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:29:53 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:30:48 --> Class 'Models\Crudmodel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:30:50 --> Class 'Models\Crudmodel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:31:03 --> Class 'App\Models\Crudmodel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:37:51 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:49:34 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:49:36 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 13:59:52 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 14:02:09 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 14:03:36 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 14:15:36 --> Call to undefined function App\Controllers\App\Models\CrudModel()
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-13 14:23:25 --> Class 'App\Models\CrudModel' not found
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#2 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-13 15:51:49 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Crud...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Crud...')
+#3 C:\xampp\htdocs\code4\crudLeo\app\Controllers\Crud.php(9): spl_autoload_call('App\\Models\\Crud...')
+#4 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->index()
+#5 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#6 C:\xampp\htdocs\code4\crudLeo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\code4\crudLeo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
